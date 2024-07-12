@@ -140,3 +140,13 @@
         gap: 24px;
     }
 }
+@media (min-width:992) {
+    .max-362{
+        max-width: 362px !important;
+    }
+}
+@media (min-width:1200px) {
+    .max-362{
+        max-width: unset !important;
+    }
+}
