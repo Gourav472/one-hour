@@ -37,7 +37,7 @@
 .card1 {
     max-width: 510px;
     border: 1.09px solid var(--border);
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .max-w-510 {
@@ -45,12 +45,12 @@
 }
 
 .card1-text-padding {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .pt_text {
-    padding-top: 30px;
+    padding-top: 16px;
 }
 
 .btn_devices {
@@ -58,7 +58,7 @@
     background: var(--green);
     border: 2px solid var(--green);
     transition: all 300ms linear;
-    margin-top: 27.25px;
+    margin-top: 20px;
 }
 
 .btn_devices:hover {
@@ -67,7 +67,7 @@
 }
 
 .pt_cards {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .bg_light-green {
@@ -109,16 +109,32 @@
     width: 30px;
     background: var(--green);
     left: -40px;
-    top: 40px;
+    top: 20px;
 }
 .right-line{
     height: 2px;
     width: 30px;
     background: var(--green);
     right: -40px;
-    top: 40px;
+    top: 20px;
 }
 @media (min-width:576px) {
+    .btn_devices {
+        margin-top: 27.25px;
+    }
+    .pt_cards {
+        padding-top: 60px;
+    }
+    .card1 {
+        padding-bottom: 30px;
+    }
+    .pt_text {
+        padding-top: 30px;
+    }
+    .card1-text-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .left-line{
         height: 2px;
         width: 60px;
