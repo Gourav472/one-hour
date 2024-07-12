@@ -104,45 +104,54 @@
 .max-182 {
     max-width: 182px;
 }
-.left-line{
+
+.left-line {
     height: 2px;
     width: 30px;
     background: var(--green);
     left: -40px;
     top: 20px;
 }
-.right-line{
+
+.right-line {
     height: 2px;
     width: 30px;
     background: var(--green);
     right: -40px;
     top: 20px;
 }
+
 @media (min-width:576px) {
     .btn_devices {
         margin-top: 27.25px;
     }
+
     .pt_cards {
         padding-top: 60px;
     }
+
     .card1 {
         padding-bottom: 30px;
     }
+
     .pt_text {
         padding-top: 30px;
     }
+
     .card1-text-padding {
         padding-left: 30px;
         padding-right: 30px;
     }
-    .left-line{
+
+    .left-line {
         height: 2px;
         width: 60px;
         background: var(--green);
         left: -75px;
         top: 22px;
     }
-    .right-line{
+
+    .right-line {
         height: 2px;
         width: 60px;
         background: var(--green);
@@ -152,17 +161,19 @@
 }
 
 @media (max-width:768px) {
-    .gap_cards{
+    .gap_cards {
         gap: 24px;
     }
 }
-@media (min-width:992) {
-    .max-362{
-        max-width: 362px !important;
+
+
+
+@media (max-width:1200px) {
+    .max-362 {
+        max-width: 362px;
     }
-}
-@media (min-width:1200px) {
-    .max-362{
-        max-width: unset !important;
+
+    .max-392 {
+        max-width: 392px;
     }
 }
