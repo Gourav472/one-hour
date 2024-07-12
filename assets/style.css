@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./root.css);
+
+.ff-kaushan {
+    font-family: "Kaushan Script", cursive;
+}
+
+.archivo {
+    font-family: "Archivo", sans-serif;
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+.max_w_1140 {
+    max-width: 1140px;
+}
+
+.p-green-box {
+    padding: 40px;
+}
+
+.max-799 {
+    max-width: 799px;
+}
+
+.pt_10 {
+    padding-top: 10px;
+}
+
+.gap_cards {
+    gap: 40px;
+}
+
+.card1 {
+    max-width: 510px;
+    border: 1.09px solid var(--border);
+    padding-bottom: 30px;
+}
+
+.max-w-510 {
+    max-width: 510px;
+}
+
+.card1-text-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pt_text {
+    padding-top: 30px;
+}
+
+.btn_devices {
+    padding: 16.35px 27.25px;
+    background: var(--green);
+    border: 2px solid var(--green);
+    transition: all 300ms linear;
+    margin-top: 27.25px;
+}
+
+.btn_devices:hover {
+    background: transparent;
+    color: var(--green) !important;
+}
+
+.pt_cards {
+    padding-top: 60px;
+}
+
+.bg_light-green {
+    background: var(--light-green);
+}
+
+.left-leaf {
+    left: 0%;
+    top: 0%;
+}
+
+.right-leaf {
+    right: 0%;
+    bottom: 0%;
+}
+
+.py-42 {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.max-532 {
+    max-width: 532px;
+}
+
+.max-387 {
+    max-width: 387px;
+}
+
+.max-156 {
+    max-width: 156px;
+}
+
+.max-182 {
+    max-width: 182px;
+}
+.left-line{
+    height: 2px;
+    width: 30px;
+    background: var(--green);
+    left: -40px;
+    top: 40px;
+}
+.right-line{
+    height: 2px;
+    width: 30px;
+    background: var(--green);
+    right: -40px;
+    top: 40px;
+}
+@media (min-width:576px) {
+    .left-line{
+        height: 2px;
+        width: 60px;
+        background: var(--green);
+        left: -75px;
+        top: 22px;
+    }
+    .right-line{
+        height: 2px;
+        width: 60px;
+        background: var(--green);
+        right: -75px;
+        top: 22px;
+    }
+}
+
+@media (max-width:768px) {
+    .gap_cards{
+        gap: 24px;
+    }
+}
